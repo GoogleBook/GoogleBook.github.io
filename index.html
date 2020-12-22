@@ -4,6 +4,7 @@
  <head>
   <meta charset="utf-8"/>
   <!--对于中文网页需要<meta charset="utf-8"/>声明代码，否则可能会出现乱码-->
+  <meta name="viewport" content="initial-scale=1,user-scalable=0,minial-ui">
   <style>
   body{
   background-color:PowderBlue;
@@ -11,6 +12,27 @@
   </style>
   <title>GoogleBook的个人网站</title>
   <!--<titel>定义了网页的名称-->
+  <SCRIPT language=JavaScript>
+function password(){
+var testV = 1;
+var pass1 = prompt('请输入密码:',");
+while(testV<3){
+if(!pass1)
+history.go(-1);
+if(pass=="12345"){
+alert('密码正确!');
+break;
+}
+
+testV+=-1;
+var pass1=prompt('密码错误！请重新输入:');
+}
+if(pass1!="password"& testV ==3)
+history.go(-1);
+return" ";
+}
+document.write(password());
+</SCRIPT>
  </head>
  <body>
   <h1 align="center">欢迎访问我的个人网站</h1>
