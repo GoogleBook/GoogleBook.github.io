@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--<!DOCTYPE HTML>不是一个HTML标签，它是用来告知 web 浏览器页面使用了哪种 HTML 版本-->
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <!--对于中文网页需要<meta charset="utf-8"/>声明代码，否则可能会出现乱码-->
+  <meta name="viewport" content="initial-scale=1,user-scalable=0,minial-ui">
+  <!--<meta name="viewport" content="initial-scale=1,user-scalable=0,minial-ui">加在head中适配手机-->
+  <style>
+  body{
+    background-color:PowderBlue;
+   }
+  #text{
+				padding: 20px;
+				font-size: 20px;
+			}
+			#submit{
+				padding: 20px;
+				font-size: 20px;
+			} 
+  </style>
+  <title>GoogleBook的个人网站</title>
+  <!--<titel>定义了网页的名称-->
+ </head>
+ <body>
+ <div  align="center">
+		<form action="https://www.baidu.com/s">
+			<input type="text" id="text" name="wd" placeholder="百度一下,你就知道">
+			<input type="submit" id="submit" name="" value="百度一下">
+		</form>
+ </div>
+  <h1 align="center">欢迎访问我的个人网站</h1>
+  <!--<h1>是标题，数字代表字体大小，并且居中-->
+  <font face="黑体" color="blue" size="12">Hello World</font>
+  <!--定义字体属性-->
+  <p align="center">这是内容<br/>它应该居中<br/>结束啦</p>
+  <!--不产生新的段落下换行用<br/>来换行-->
+  <hr/>
+  <!--<hr/>为划线-->
+  <p align="center">
+  春眠不觉晓，<br/>处处闻啼鸟。<br/>夜来风雨声，<br/>花落知多少。
+  </p> 
+  <p style="font-size:30px;color:green">
+  字体大小为30，颜色为绿色，背景色为粉蓝色。
+  </p>
+  <li>
+  <a href="http://www.baidu.com">
+  这是一个菜单，点击进入百度</a>
+  </li>
+ </body>
+</html>
