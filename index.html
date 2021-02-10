@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>动态搜索</title>
-    <script src="./index.js"></script>
     <link rel="shortcut icon" href="ico.png" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
@@ -12,7 +11,10 @@
 </head>
 <body>
     <div class="box">
-        <input type="text" placeholder="搜索" class="txt">
+        <form action="http://www.baidu.com/s" method="GET" target="_blank">
+            <input type="text" name="wd">
+            <input type="submit">
+        </form>
         <a href="#" class="btn">
             <i class="fa fa-superpowers" aria-hidden="true"></i>
         </a>
